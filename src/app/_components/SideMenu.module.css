@@ -1,0 +1,56 @@
+
+.sideMenu {
+  width: 20%;
+  min-width: 17em;
+  min-height: 100vh;
+  border-right: 1.5px solid rgb(209, 209, 209);
+}
+.SideMenuHeader {
+  padding-left: 0.5em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  border-bottom: 1.5px solid rgb(211, 211, 211);
+}
+.SideMenuBody {
+  padding-left: 0.5em;
+  padding-top: 0.8em;
+  border-bottom: 1.5px solid rgb(211, 211, 211);
+  padding-bottom: 0.8em;
+}
+.SideMenuBodyMyTemplates {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  padding-bottom: 0.8em;
+}
+.SideMenuItems{
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  padding-bottom: 0.8em;
+  width: 100%;
+}
+
+.SideMenuBodyBoards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.8em;
+  width: 100%;
+}
+.SideMenuBodyBoardsPlus{
+  padding-right: 0.8em;
+  padding-bottom: 0.8em;
+}
+.SideMenuFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8em 0.8em 0 0.8em;
+  width: 100%;
+}
+.SideMenuFooterGear{
+  padding-right: 0.8em;
+  padding-bottom: 0.8em;
+}
+

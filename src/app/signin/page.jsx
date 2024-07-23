@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import logo from "@/public/images/logo.png";
 
 function page() {
   return (
-    <div>sign in content </div>
-  )
+    <div>
+      <div>mahery</div>
+    </div>
+  );
 }
 
-export default page
+export default page;

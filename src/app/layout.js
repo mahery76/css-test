@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
+import SideMenu from "./_components/SideMenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <main className={styles.main}>
-          <div>sideMenus</div>
+          <SideMenu />
           <div>{children}</div>
         </main>
       </body>
