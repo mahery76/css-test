@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <main className={styles.main}>
           <SideMenu />
-          <div>{children}</div>
+          {children}
         </main>
       </body>
     </html>
