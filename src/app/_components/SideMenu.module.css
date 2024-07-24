@@ -27,8 +27,14 @@
   gap: 0.5em;
   align-items: center;
   padding-bottom: 0.8em;
-  width: 100%;
+  width: 100%;   /* Add the ellipsis at the end of the text */
 }
+.SideMenuItems p{
+  white-space: nowrap;        /* Prevent the text from wrapping to a new line */
+  overflow: hidden;           /* Hide the overflowed text */
+  text-overflow: ellipsis;    /* Add the ellipsis at the end of the text */
+}
+
 
 .SideMenuBodyBoards {
   display: flex;

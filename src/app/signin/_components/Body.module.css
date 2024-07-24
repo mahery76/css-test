@@ -29,7 +29,10 @@
 .BodyPersonalInformation {
   margin-top: 3em;
   width: 100%;
-  background-color: pink;
+  /* background-color: pink; */
+}
+.BodyPersonalInformation h1 {
+  margin-bottom: 1em;
 }
 .BodyPersonalInformationForm {
   width: 100%;
@@ -41,10 +44,96 @@
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 1em;
+  column-gap: 2em;
 }
 .BodyPersonalInformationProfile {
+  margin-left: 2em;
   width: 16%;
 }
 .BodyPersonalInformationInput {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+}
+
+.BodyPersonalInformationInput label {
+  position: absolute;
+  background-color: white;
+  margin: -0.5em 0 0 0.5em;
+  padding: 0 0.3em 0 0.3em;
+}
+.BodyPersonalInformationInput input {
+  height: 3em;
+  border-radius: 0.5em;
+  border: 1.5px solid rgb(211, 211, 211);
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+.BodyPersonalInformationInputAddress {
+  grid-column: 1/3;
+}
+.BodyPersonalInformationInputAddress label {
+  position: absolute;
+  background-color: white;
+  margin: -0.5em 0 0 0.5em;
+  padding: 0 0.3em 0 0.3em;
+}
+.BodyPersonalInformationInputAddress input {
+  grid-column: 1/3;
+  height: 3em;
+  border-radius: 0.5em;
+  border: 1.5px solid rgb(211, 211, 211);
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+.BodyPersonalInformationInputEmail {
+  position: relative;
+}
+.BodyPersonalInformationInputEmail label {
+  position: absolute;
+  background-color: white;
+  margin: -0.5em 0 0 0.5em;
+  padding: 0 0.3em 0 0.3em;
+}
+.BodyPersonalInformationInputEmail input {
+  height: 3em;
+  border-radius: 0.5em;
+  border: 1.5px solid rgb(211, 211, 211);
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+.BodyPersonalInformationInputEmailCheckmark {
+  position: absolute;
+  right: 1em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
+.BodyPersonalInformationInputLink {
+  font-size: 1.1em;
+  grid-column: 1/3;
+}
+.BodyPersonalInformationInputLinkResumeDone {
+  padding: 0 0.5em 0 0.5em;
+  text-decoration: none;
+  color: rgb(0, 140, 255);
+}
+.BodyPersonalInformationInputSubmit{
+  grid-column: 1/3;
+  font-size: 1em;
+  border: 1.5px solid rgb(211, 211, 211);
+  background-color: rgb(0, 140, 255);
+  width: 12em;
+  height: 3em;
+  color: white;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+.BodyShowProfile{
+  display: flex;
+  /* background-color: pink; */
+  margin-top: 2em;
+  width: 100%;
+  font-size: 1.1em;
+  gap: 1em;
 }

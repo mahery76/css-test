@@ -23,7 +23,7 @@ function SideMenuBodySearch() {
 
         <SideMenuBodySearchRecent job="Past search 1"/>
         <SideMenuBodySearchRecent job="Past search 2"/>
-        <SideMenuBodySearchRecent job="Computer and information information"/>
+        <SideMenuBodySearchRecent job="Computer and information information developer"/>
         <SideMenuBodySearchRecent job="Database administrator"/>
         <SideMenuBodySearchRecent job="Computer security"/>
         <SideMenuBodySearchRecent job="Computer System Analyst"/>

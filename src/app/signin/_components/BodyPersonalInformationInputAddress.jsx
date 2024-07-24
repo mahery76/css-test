@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import styles from "./Body.module.css";
 
 function BodyPersonalInformationInputAddress() {
   return (
-    <div>BodyPersonalInformationInputAddress</div>
-  )
+    <div className={styles.BodyPersonalInformationInputAddress}>
+      <label htmlFor="firstName">Address</label>
+      <input
+        type="text"
+        id="firsName"
+        className={styles.BodyPersonalInformationInput}
+      />
+    </div>
+  );
 }
 
-export default BodyPersonalInformationInputAddress
+export default BodyPersonalInformationInputAddress;

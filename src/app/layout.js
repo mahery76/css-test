@@ -1,9 +1,12 @@
-import { Inter } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
 import SideMenu from "./_components/SideMenu";
 
-const inter = Inter({ subsets: ["latin"] });
+const lato = Lato({ 
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "700", "900"], 
+});
 
 export const metadata = {
   title: "Css test",
@@ -13,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={lato.className}>
         <main className={styles.main}>
           <SideMenu />
           {children}
