@@ -6,7 +6,7 @@ function BodyGetInTouch() {
   return (
     <div className={styles.BodyGetInTouch}>
         <Link
-          href="https://www.hirethebest.io"
+          href="https://www.chatgpt.com"
           target="_blank"
           className={styles.BodyGetInTouchLink}
         >

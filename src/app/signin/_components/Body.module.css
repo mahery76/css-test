@@ -1,5 +1,5 @@
 .body {
-  padding: 2.5em 5em;
+  padding: 2.5em 5em 1.5em 5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,8 +153,12 @@
 }
 .BodyDeleteAccountConfirm{
   margin-top: 1em;
+}
+.BodyDeleteAccountConfirmLink{
   color: rgb(255, 0, 55);
   font-size: 1.1em;
+  cursor: pointer;
+  text-decoration: none;
 }
 .BodyGetInTouch{
   width: 100%;
@@ -168,6 +172,7 @@
   padding: 0 0.5em 0 0;
   text-decoration: none;
   color: rgb(0, 140, 255);
+  text-decoration: none;
 }
 .BodyFooter{
   display: flex;

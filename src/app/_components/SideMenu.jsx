@@ -6,8 +6,10 @@ import SideMenuHeader from "./SideMenuHeader";
 function SideMenu() {
   return (
     <div className={styles.sideMenu}>
+      <div>
       <SideMenuHeader />
       <SideMenuBody />
+      </div>
       <SideMenuFooter />
     </div>
   );
