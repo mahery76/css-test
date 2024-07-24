@@ -1,28 +1,50 @@
-.body{
-    padding: 2.5em 5em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+.body {
+  padding: 2.5em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
-.BodyPremiumAccount{
-    padding: 2em 2em;
-    background-color: rgb(0, 128, 90);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    border-radius: 0.5em;
+.BodyPremiumAccount {
+  padding: 2em 2em;
+  background-color: rgb(0, 128, 90);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  border-radius: 0.5em;
 }
-.premiumAccount{
-    display: flex;
-    flex-direction: column;
-    gap: 0.4em;
+.premiumAccount {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
 }
-.premiumAccountTitle{
-    color: white;
+.premiumAccountTitle {
+  color: white;
 }
-.premiumAccountDescription{
-    color: white;
-    font-size: 1.2em;
+.premiumAccountDescription {
+  color: white;
+  font-size: 1.2em;
+}
+.BodyPersonalInformation {
+  margin-top: 3em;
+  width: 100%;
+  background-color: pink;
+}
+.BodyPersonalInformationForm {
+  width: 100%;
+  display: flex;
+  margin-top: 1em;
+}
+.BodyPersonalInformationInputs {
+  width: 84%;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1em;
+}
+.BodyPersonalInformationProfile {
+  width: 16%;
+}
+.BodyPersonalInformationInput {
+  width: 100%;
 }
